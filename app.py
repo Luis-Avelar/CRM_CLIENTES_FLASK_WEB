@@ -117,6 +117,7 @@ def actualizar(id):
 
 
 # Ejecutar app
+crear_tabla()
+
 if __name__ == "__main__":
-    crear_tabla()
-    app.run(host="0.0.0.0", port=5000)
+    app.run()
